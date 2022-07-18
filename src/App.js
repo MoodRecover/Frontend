@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-
+import RegistrationForm from './containers/RegistrationForm'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <RegistrationForm/>
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           <code>Code implementation for MoodRecovery(MR)</code> 
-        </p>
+        </p> */}
       </header>
     </div>
   );
